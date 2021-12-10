@@ -1,0 +1,32 @@
+State
+E0
+D1
+A
+D2
+Z
+Init
+E0
+Transition
+E0 a..z D1
+E0 A..Z D1
+E0 0..9 D1
+D1 a..z D1
+D1 A..Z D1
+D1 0..9 D1
+D1 - E0
+D1 . E0
+D1 + E0
+D1 @ A
+A a..z D2
+A A..Z D2
+A 0..9 D2
+D2 a..z D2
+D2 A..Z D2
+D2 0..9 D2
+D2 - A
+D2 . Z
+Z a..z Z
+Z A..Z Z
+Z ; E0
+Final
+Z

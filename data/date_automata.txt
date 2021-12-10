@@ -1,0 +1,78 @@
+State
+E0
+J1
+J2
+J3
+J4
+J5
+J6
+J7
+J8
+J9
+T1
+T2
+T3
+M1
+M2
+M3
+M4
+M5
+M6
+M
+A1
+A2
+A3
+A4
+A5
+A6
+A7
+A8
+Init
+E0
+Transition
+E0 0 J1
+E0 1 J2
+E0 2 J3
+E0 3 J4
+J1 1..9 J5
+J2 0..9 J5
+J3 0..8 J6
+J3 9 J7
+J4 0 J8
+J4 1 J9
+J5 / T1
+J6 / T1
+J7 / T2
+J8 / T2
+J9 / T3
+T1 0 M1
+T1 1 M2
+T2 0 M3
+T2 1 M4
+T3 0 M5
+T3 1 M6
+M1 0..9 M
+M2 0..2 M
+M3 1 M
+M3 3..9 M
+M4 0..2 M
+M5 1 M
+M5 3 M
+M5 5 M
+M5 7..8 M
+M6 0 M
+M6 2 M
+M / A1
+A1 0 A2
+A1 1..9 A5
+A2 0 A3
+A2 1..9 A6
+A3 0 A4
+A3 1..9 A7
+A4 0 A8
+A4 1..9 A8
+A5 0..9 A6
+A6 0..9 A7
+A7 0..9 A8
+Final
+A8

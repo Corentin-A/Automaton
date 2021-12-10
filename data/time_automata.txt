@@ -1,0 +1,20 @@
+State
+E0
+H1
+H2
+H
+M1
+M2
+M
+Init
+E0
+Transition
+E0 0..1 H1
+E0 2 H2
+H1 0..9 H
+H2 0..3 H
+H : M1
+M1 0..5 M2
+M2 0..9 M
+Final
+M
