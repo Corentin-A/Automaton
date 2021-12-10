@@ -33,7 +33,8 @@ Init
 . Initial State (ex : E0) only one (one of the ones in Init)
 Transition
 .
-. a transiton (ex : E0 1 E1 // E0 0..9 E1)one by line, 2 type : State1 X State2 or State1 X..Y State2 (X/Y : letter/number/symbol)
+. a transiton (ex : E0 1 E1 // E0 0..9 E1)one by line,
+  2 type : State1 X State2 or State1 X..Y State2 (X/Y : letter/number/symbol)
 .
 Final
 . a state (ex : E5)one or more (one by line)
